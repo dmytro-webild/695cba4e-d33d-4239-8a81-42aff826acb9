@@ -116,7 +116,6 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MediaAbout
       useInvertedBackground={false}
-      animationType="blur-reveal"
       title="Our Story: The Taste of Tradition"
       description="Karupati Coffee Shop is a cherished local favorite in Pichatur, renowned for its exquisite Karupatti coffee. We meticulously craft each cup using authentic palm jaggery and time-honored traditional brewing methods, ensuring a rich and distinct flavor that captures the essence of South Indian coffee culture. Our passion for tradition and quality shines in every sip and bite."
       imageSrc="http://img.b2bpic.net/free-photo/cheerful-asian-young-woman-drinking-warm-coffee-tea-enjoying-it-while-sitting-cafe_7861-1012.jpg"
@@ -174,6 +173,7 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
+      animationType="blur-reveal"
       features={[
         {
           title: "Art of Coffee",
